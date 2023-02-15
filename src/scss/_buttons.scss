@@ -106,6 +106,28 @@
   }
 }
 
+.btn-third {
+  background: $energy2-color;
+  color: $secondary-color;
+  border: 1px solid $energy2-color;
+
+  &::before {
+    background: $secondary-color;
+  }
+
+  &:active {
+    background: $secondary-color;
+    color: $white;
+    border: 1px solid $energy2-color;
+  }
+
+  &:hover {
+    background: $energy2-color;
+    color: $energy2-color;
+    border: 1px solid $energy2-color;
+  }
+}
+
 .btn-primary-outline {
   border: 1px solid $primary-color;
   color: $primary-color;
